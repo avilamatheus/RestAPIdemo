@@ -1,0 +1,7 @@
+127.0.0.1 - - [16/Mar/2022:09:59:39 -0300] "GET /product HTTP/1.1" 200 611 http-bio-8080-exec-1 327
+127.0.0.1 - - [16/Mar/2022:10:00:05 -0300] "POST /removeproduct HTTP/1.1" 200 - http-bio-8080-exec-3 33
+127.0.0.1 - - [16/Mar/2022:10:00:11 -0300] "GET /product HTTP/1.1" 200 532 http-bio-8080-exec-2 28
+127.0.0.1 - - [16/Mar/2022:10:01:52 -0300] "GET /removeproduct HTTP/1.1" 405 1065 http-bio-8080-exec-6 2
+127.0.0.1 - - [16/Mar/2022:10:02:20 -0300] "GET /product HTTP/1.1" 200 532 http-bio-8080-exec-8 16
+127.0.0.1 - - [16/Mar/2022:10:03:54 -0300] "POST /removeproduct HTTP/1.1" 500 1740 http-bio-8080-exec-10 5
+127.0.0.1 - - [16/Mar/2022:10:06:46 -0300] "POST /removeproduct HTTP/1.1" 400 - http-bio-8080-exec-1 25

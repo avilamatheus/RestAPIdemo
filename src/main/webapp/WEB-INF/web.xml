@@ -1,0 +1,26 @@
+<web-app>
+   <servlet>
+    <servlet-name>ProductServlet</servlet-name>
+    <servlet-class>simplerestapi.ProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/product</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AddProductServlet</servlet-name>
+    <servlet-class>simplerestapi.AddProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddProductServlet</servlet-name>
+    <url-pattern>/addproduct</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RemoveProductServlet</servlet-name>
+    <servlet-class>simplerestapi.RemoveProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RemoveProductServlet</servlet-name>
+    <url-pattern>/removeproduct</url-pattern>
+  </servlet-mapping>
+</web-app>
